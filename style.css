@@ -29,3 +29,28 @@ text-align: center;
 margin-top: 30px;
 }
 
+/* chinemerem style */
+.chinemerem-card{
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.chinemerem-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.chinemerem-h1 {
+    color: aqua;
+}
+.chinemerem-h2 {
+    color: blue;
+}
