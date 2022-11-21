@@ -990,3 +990,115 @@ span.ami-time {
 .e_profession {
   padding-top: 20px;
 }
+
+
+/* Kevwe's styling */
+.kevwe-card {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 37px;  
+}
+
+.kevwe-card a {
+  text-decoration: none;
+  color: brown;
+  font-size: 17px;
+}
+
+.kevwe-card a:hover {
+  color: black;
+  text-decoration: underline;
+}
+ 
+.kev-resume {
+  width: 850px;
+  border: 2px solid black;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kev-header {
+  background-color: brown;
+  text-align: center;
+   padding: 40px;
+   color: #ffffff;
+   border-bottom: 5px solid burlywood;
+}
+
+.kev-body {
+  width: 100%;
+ 
+  border-top: 5px solid brown;
+  background-color: burlywood;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: flex-start;
+}
+
+.kev1 {
+  padding-top: 40px;
+padding-left: 15px;
+width: 270px;
+}
+
+.kev1-a h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev1-a p {
+  margin-left: 20px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.kev1-a span {
+  font-weight: bold;
+}
+.kev1-b {
+  padding-top: 30px;
+}
+.kev1-b h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev1-b li {
+  margin-left: 25px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.kev2 {
+  background-color: white;
+  padding: 20px;
+  margin: 8px 8px;
+  width: 550px;
+}
+
+.kev2-a h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev2-a p {
+  padding-bottom: 20px;
+}
+
+.kev2-b h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev2-b span {
+  font-weight: bold;
+}
+
+.kev2 li {
+  line-height: 30px;
+  width: 500px;
+}
+.kev2-b li {
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
