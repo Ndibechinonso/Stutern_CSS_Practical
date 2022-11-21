@@ -1,17 +1,19 @@
-* {
+*  {
   padding: 0;
   margin: 0;
   width: 100%;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-body {
+body  {
   max-width: 1440px;
   margin: auto;
 }
-main {
+main  {
   margin: auto;
 }
 .project_tittle {
+  position: sticky;
+  top: 0;
   text-align: center;
   padding: 40px 20px;
   background: #000000;
@@ -36,7 +38,7 @@ main {
   align-content: center;
   gap: 20px;
 }
-.card:hover {
+.card:hover  {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card:nth-of-type(even) {
@@ -58,12 +60,12 @@ main {
 .nonso_header {
   background-color: blue;
   text-align: center;
-  padding: 40px;
-  color: #ffffff;
-  border-bottom: 5px solid skyblue;
+   padding: 40px;
+   color: #ffffff;
+   border-bottom: 5px solid skyblue;
 }
 
-.resume_content {
+.resume_content  {
   width: 100%;
   border-top: 5px solid blue;
   background-color: skyblue;
@@ -71,34 +73,34 @@ main {
   grid-template-columns: 1fr 2fr;
   align-content: flex-start;
 }
-.resume_content h2 {
+.resume_content h2  {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 20px;
 }
-.resume_left {
+.resume_left  {
   padding: 60px 40px;
 }
-.display_column {
+.display_column  {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.resume_right {
+.resume_right  {
   background: #ffffff;
   margin-top: 20px;
   padding: 30px 40px;
 }
 
 /* style the labels on the left side */
-.nonso_contact {
+.nonso_contact  {
   font-size: 20px;
 }
 .padding_left_30,
 .nonso_contact {
   padding-left: 30px;
 }
-.nonso_contact .nonso_label {
+.nonso_contact .nonso_label  {
   font-weight: 700;
 }
 
@@ -106,37 +108,102 @@ main {
 .job_tittle,
 .company {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .job_tittle span:first-child,
 .company span:first-child {
   font-weight: 700;
   font-size: 28px;
 }
-.company span:first-child {
+.company span:first-child  {
   font-size: 20px;
 }
-.text_right {
+.text_right  {
+  text-align: right;
+}
+
+.job_container  {
+  padding-left: 5px;
+}
+.job_info  {
+  margin-bottom: 30px;
+}
+.list  {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* damiete ibama's css styles */
+.dami_header {
+  background-color: rgb(46, 126, 232);
+  text-align: center;
+  padding: 40px;
+  color: #ffffff;
+  border-bottom: 5px solid skyblue;
+}
+.cv_content{
+  width: 100%;
+  border-top: rgb(46, 126, 232);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: flex-start;
+}
+.cv_left{
+  padding-top: 60px 40px;
+}
+.d_display_column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cv_right{
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 30px 40px;
+}
+.cv_content h2{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.dami_contact{
+font-size: 20px;
+}
+.padding_30 , .dami_contact{
+  padding-left: 30px;
+}
+.dami_contact ,.dami_label{
+  font-weight: 700;
+}
+.job_tittle,
+.company_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.job_tittle span:first-child,
+.company_titile span:first-child {
+  font-weight: 700;
+  font-size: 28px;
+}
+.company_title span:first-child {
+  font-size: 20px;
+}
+.title_right {
   text-align: right;
 }
 
 .job_container {
   padding-left: 5px;
 }
-.job_info {
+.job_details {
   margin-bottom: 30px;
 }
-.list {
+.job_list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-/* dami"s css styles */
-.dami.header {
-  color: blue;
-  text-align: center;
-  margin-top: 30px;
 }
 
 .venee_header {
@@ -163,64 +230,103 @@ main {
 }
 
 /* TEMIDAYO'S CSS STYLES */
-
-.temi-body {
-  background-color: whitesmoke;
-  color: rgb(12, 12, 109);
-}
-
-.temidayo-header {
-  background-color: cornflowerblue;
-  height: fit-content;
-  padding: 10px;
-}
-
 .temi-main {
-  margin-top: -30px;
+  width: 70vw;
+  height: 100%;
+  margin: 20px auto;
+  border: 1px solid #0086de;
+  font-size: 0.8em;
+  font-family: Poppins;
+  line-height: 1.5em;
 }
 
-.temidayo-h1 {
-  font-size: 2.2em;
+h1.temi-h1 {
+  font-size: 3em;
+  color: #d9edfa;
+  font-weight: bold;
+}
+.temi-header {
+  background-color: #0086de;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 3px solid white;
 }
 
-#hello_button {
-  border: 4px solid rgb(12, 12, 109);
-  font-size: 1.1em;
-  background-color: cornflowerblue;
-  margin-top: 25px;
-  padding: 10px;
-  color: rgb(12, 12, 109);
+.main-container {
+  background-color: #d9edfa;
+  display: flex;
+  border-top: 4px solid #0086de;
 }
 
-#hello_button:hover {
-  transform: scale(1.2);
-  margin-left: 10px;
-}
-.temi-form {
-  border: 2px solid rgb(12, 12, 109);
-  padding: 5px 10px;
+.category-container {
+  flex: 1;
+  padding: 50px 20px 90px;
 }
 
-.input-div {
-  margin: 20px 0;
+.profession-container {
+  background-color: #ffffff;
+  flex: 2;
+  margin-top: 20px;
+  padding: 30px 30px 90px;
 }
 
-.radio1 {
-  margin: 10px;
+div.p-summary,
+div.experience,
+.temi-para,
+.sub-head ~ span {
+  padding-left: 15px;
 }
 
-#input-name,
-#food {
-  width: 300px;
-  height: 30px;
+.temi-main ul {
+  padding-left: 25px;
 }
 
-.submit-button input {
-  padding: 10px;
-  color: rgb(12, 12, 109);
-  border: 4px solid rgb(12, 12, 109);
-  font-size: 1.2em;
+.container1,
+.container2,
+.history-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9em;
 }
+
+.history-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+div.temi-para {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+h3.sub-head {
+  margin-bottom: 1px;
+  font-size: 1.3em;
+}
+
+span.temi-label {
+  font-weight: 800;
+}
+
+span.temi-label2 {
+  padding-left: 2px;
+}
+
+.para1 > span {
+  display: block;
+}
+
+div.para1 {
+  display: flex;
+}
+
+span.temi-date {
+  text-align: right;
+}
+
+/* The end of Temidayo's Css styles */
 
 .liz {
   color: brown;
@@ -244,13 +350,74 @@ td {
   padding: 10px;
 }
 
-/* bukola's css styling */
-.bukola_style {
-  border: 2px solid black;
-  border-radius: 5px;
-  color: crimson;
-  width: fit-content;
+/* bukola's css styling lines 251-317*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  padding: 3% 10%;
+  background-color: rgb(65, 153, 224);
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 4px solid skyblue;
+  padding: 50px 50px 50px 500px;
+}
+
+.whole-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: skyblue;
+  border-top: 4px solid rgb(65, 153, 224);
+  border-bottom: 4px solid skyblue;
+}
+
+.left-section {
+  width: 70%;
+  padding: 4%;
+  line-height: 30px;
+  background-color: skyblue;
+}
+.right-section {
+  padding: 3%;
+  line-height: 30px;
+  background-color: white;
+  margin-top: 1%;
+}
+.whole-body h2{
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.whole-body div span{
+  padding-left: 30px;
+}
+.whole-body div span:first-child{
+  font-weight: 800;
+}
+.first-ul{
+  padding-left: 50px;
+}
+.whole-body p{
+  padding-left: 50px;
+}
+.right-texts{
+  padding-left: 25px;
+}
+.right-texts:nth-child(5){
+  padding-top: 20px;
+}
+.second-ul{
+  padding-left: 50px;
+}
+
 /* Blessing Dawodu's style */
 #description {
   padding: 20px;
@@ -389,6 +556,96 @@ td {
 }
 
 
+/* Nurat's CSS   --- Beginning---*/
+/* ------------------------------------*/
+
+#myresume_body {
+  background-color: rgb(210, 239, 250);
+  text-align: center;
+  width: 800px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+#nurat_header {
+  background-color: rgb(23, 166, 223);
+  width: 100%;
+  height: 130px;
+  color: white;
+}
+
+#nurat_header h1 {
+  transform: scale(1, 1.5);
+  padding-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#divider {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid rgb(246, 253, 255);
+  padding-top: 33px;
+}
+
+#left_sidebar,
+#right_sidebar {
+  height: 600px;
+  width: 40%;
+  text-align: left;
+  float: left;
+}
+
+#right_sidebar {
+  background-color: white;
+  margin-top: 12px;
+  height: 758px;
+  width: 60%;
+  float: right;
+  text-align: justify;
+}
+
+#left_sidebar span,
+#right_sidebar span {
+  font-weight: bold;
+}
+
+#left_sidebar h3,
+#right_sidebar h3 {
+  margin: 35px 0 -5px 40px;
+}
+
+#summary h3 {
+  margin-top: 20px;
+}
+
+#left_sidebar p,
+#left_sidebar ul,
+#right_sidebar ul,
+#right_sidebar p {
+  font-size: 15px;
+  margin: 15px 30px -10px 50px;
+  line-height: 18px;
+}
+
+#left_sidebar ul,
+#right_sidebar ul {
+  margin-left: 25px;
+
+}
+
+.history {
+  margin-bottom: 30px;
+}
+
+#right_sidebar .history p:first-child {
+  margin-bottom: -12px;
+}
+
+.skills li {
+  line-height: 25px;
+}
+/* ------------------------------------*/
+/* Nurat's CSS   --- End---*/
 /* Cynthia's styling*/
 
 .mine {
@@ -417,77 +674,453 @@ td {
   margin: o auto;
   width: 350px;
 }
-/*Oluwatomi's CSS*/
-#page{
-  display: table;
-  max-width: 1500px;
-  font-family:cursive;
+
+/* Esther's css style */
+.firstpage {
+  margin-left: 90px;
 }
-.grid1{
-  display: table-cell;
-  width: 200px;
-  height: 200px;
-  padding-left: 100px;
-  text-align: center;
-  vertical-align: middle;
+.esther_card {
   box-sizing: border-box;
-  
+  border: 1px solid rgb(175, 238, 234);
+  border-radius: 10px;
+  background-color: rgb(9, 214, 201);
+  width: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(65, 64, 64);
+  margin: 0 auto;
+  padding: 30px 50px;
+  text-align: center;
 }
-#grid1{
-  display: table-cell;
-  width: 600px;
-  padding-left: 150px;
-  padding-top: 30px;
+.esther_img {
+  width: 200px;
+  padding-top: 15px;
+  border-radius: 100%;
 }
-.grid2{
-  display: table-cell;
-  width: 350px;
-  padding-left: 50px;
-  color: crimson;
+.about_esther {
+  padding-top: 15px;
 }
-#grid2{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
+.esther_skill {
+  padding-top: 10px;
 }
-.grid3{
-  display: table-cell;
-  width: 350px;
+.esther_lang {
+  padding-top: 10px;
+}
+.esthers_lang {
+  padding-top: 10px;
+}
+/* esther resume style */
+.my_resume {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(50,148,230);
+}
+.header_esther {
+  background-color: rgb(50,148,230);
+  text-align: center;
+  color: white;
   padding: 50px;
-  color:  crimson;
+  font-weight: 800;
+  letter-spacing: 1px;
 }
-#grid3{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
+.e_resume {
+  background-color: rgb(193, 223, 248);
+  align-content: flex-start;
+  border-top: 5px solid rgb(193, 223, 248);
+  display: inline-block;
+  grid-template-columns: 1fr 2fr;
 }
-.grid4{
-  display: table-cell;
-  width: 350px;
-  padding: 50px;
-  color:  crimson;
+.e_resume h3 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 15px;
 }
-#grid4{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
-  
+.e_resumeleft {
+  padding: 30px 30px;
+  text-align: justify;
+  width: 400px
 }
-.grid5{
-  display: table-cell;
-  width: 350px;
-  padding: 50px;
-  color: crimson;
+.e_contact {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
-#grid5{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
+.e_skills {
+  padding-left: 30px;
 }
-.end{
+.e_label {
+  font-weight: 600;
+  padding-left: 10px;
+}
+.div[e_label] {
+ padding-left: 10px;
+}
+
+.e_column {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  gap: 20px;
 }
-.bold{
+
+.e_right {
+  background: white;
+  margin-top: 20px;
+  padding: 30px 40px;
+  font-size: 18px;
+  width: 600px;
+}
+.e_profession {
+  padding-top: 20px;
+}
+
+/*Oluwatomi's CSS*/
+.tomi_header {
+  font-size: 100px;
+  color: rebeccapurple;
+  text-align: center;
+}
+/* Ameena's CSS */
+#ami-blog-post {
+  padding: 2rem;
+  border-bottom: 2px solid #fa8072a0;
+  background-color: rgb(247, 216, 213);
+}
+ul.ami-card-row {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+li.ami-card-wrapper {
+  border: 0;
+  width: 33.33%;
+  max-width: 300px;
+  min-width: 270px;
+  padding: 6px;
+}
+.ami-card {
+  border: none;
+  background-color: #fff;
+  border-radius: 7.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ami-card-bg-img1 {
+  background: url(./images/techfive\ small.jpg) center no-repeat;
+}
+.ami-card-bg-img2 {
+  background: url(./images/techfour.jpg) center no-repeat;
+}
+.ami-card-bg-img3 {
+  background: url(./images/techthreeSmall.jpg) center no-repeat;
+}
+.ami-card-bg-img1,
+.ami-card-bg-img2,
+.ami-card-bg-img3 {
+  background-size: cover;
+  height: 180px;
+  border-top-left-radius: 7.5px;
+  border-top-right-radius: 7.5px;
+}
+.ami-user-info,
+.ami-card-content {
+  padding: 0.75rem;
+}
+.ami-user-img {
+  max-width: 4rem;
+  max-height: 4rem;
+  border: none;
+  overflow: hidden;
+  border-radius: 100%;
+  display: inline-block;
+}
+.ami-user-img > img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+span.ami-text {
+  vertical-align: top;
+  min-width: 150px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+span.ami-time {
+  font-weight: 100;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+.ami-card-content p {
+  margin: 0 !important;
+}
+.ami-card-content > button {
+  display: inline-block;
+  width: auto;
+  font-size: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+  padding: 2px;
+}
+.ami-blue-btn {
+  border: 2px solid #0059ff;
+  background-color: #0059ff;
+}
+.ami-red-btn {
+  border: 2px solid #f34b4b;
+  background-color: #f34b4b;
+}
+.ami-yellow-btn {
+  border: 2px solid #ffd000;
+  background-color: #ffd000;
+}
+
+
+/*Chidera's CSS*/
+#bodyody{
+    background-color: rgb(216, 92, 129);
+    padding: 10px;
+}
+.labela{
+    font-weight: bold;
+    font-size: large;
+}
+#h10{
+    text-align: center;
+}
+#butn5{
+    margin: 0px 10px 10px 70px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+#hr4{
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+.dera[type=text],[type=email],[type=tel],select,textarea{
+    width: 320px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 18px;
+    resize: none;
+    margin-left: 5px;
+}
+
+/* Esther's css style */
+.firstpage {
+  margin-left: 90px;
+}
+.esther_card {
+  box-sizing: border-box;
+  border: 1px solid rgb(175, 238, 234);
+  border-radius: 10px;
+  background-color: rgb(9, 214, 201);
+  width: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(65, 64, 64);
+  margin: 0 auto;
+  padding: 30px 50px;
+  text-align: center;
+}
+.esther_img {
+  width: 200px;
+  padding-top: 15px;
+  border-radius: 100%;
+}
+.about_esther {
+  padding-top: 15px;
+}
+.esther_skill {
+  padding-top: 10px;
+}
+.esther_lang {
+  padding-top: 10px;
+}
+.esthers_lang {
+  padding-top: 10px;
+}
+/* esther resume style */
+.my_resume {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(50,148,230);
+}
+.header_esther {
+  background-color: rgb(50,148,230);
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.e_resume {
+  background-color: rgb(193, 223, 248);
+  align-content: flex-start;
+  border-top: 5px solid rgb(193, 223, 248);
+  display: inline-block;
+  grid-template-columns: 1fr 2fr;
+}
+.e_resume h3 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.e_resumeleft {
+  padding: 30px 30px;
+  text-align: justify;
+  width: 400px
+}
+.e_contact {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.e_skills {
+  padding-left: 30px;
+}
+.e_label {
+  font-weight: 600;
+  padding-left: 10px;
+}
+.div[e_label] {
+ padding-left: 10px;
+}
+
+.e_column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.e_right {
+  background: white;
+  margin-top: 20px;
+  padding: 30px 40px;
+  font-size: 18px;
+  width: 600px;
+}
+.e_profession {
+  padding-top: 20px;
+}
+
+
+/* Kevwe's styling */
+.kevwe-card {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 37px;  
+}
+
+.kevwe-card a {
+  text-decoration: none;
+  color: brown;
+  font-size: 17px;
+}
+
+.kevwe-card a:hover {
+  color: black;
+  text-decoration: underline;
+}
+ 
+.kev-resume {
+  width: 850px;
+  border: 2px solid black;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.kev-header {
+  background-color: brown;
+  text-align: center;
+   padding: 40px;
+   color: #ffffff;
+   border-bottom: 5px solid burlywood;
+}
+
+.kev-body {
+  width: 100%;
+ 
+  border-top: 5px solid brown;
+  background-color: burlywood;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: flex-start;
+}
+
+.kev1 {
+  padding-top: 40px;
+padding-left: 15px;
+width: 270px;
+}
+
+.kev1-a h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev1-a p {
+  margin-left: 20px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.kev1-a span {
   font-weight: bold;
 }
+.kev1-b {
+  padding-top: 30px;
+}
+.kev1-b h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev1-b li {
+  margin-left: 25px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.kev2 {
+  background-color: white;
+  padding: 20px;
+  margin: 8px 8px;
+  width: 550px;
+}
+
+.kev2-a h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev2-a p {
+  padding-bottom: 20px;
+}
+
+.kev2-b h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.kev2-b span {
+  font-weight: bold;
+}
+
+.kev2 li {
+  line-height: 30px;
+  width: 500px;
+}
+.kev2-b li {
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
