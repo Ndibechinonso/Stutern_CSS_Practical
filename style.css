@@ -3,6 +3,7 @@
   margin: 0;
   width: 100%;
     box-sizing: border-box;
+   
 }
 body  {
   max-width: 1440px;
@@ -541,10 +542,6 @@ header {
  color: #ffffff;
  border-bottom: 5px solid skyblue;
 }
-
-
-
-/* style the labels on the left side */
 .udeme_contact{
   font-size: 20px;
 }
@@ -554,7 +551,23 @@ header {
 .udeme_contact .udeme_label{
   font-weight: 700;
 }
+.udeme-card{
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 20px;
+  background-color: gray;
+}
 
+.udeme-card:hover{
+  border: 2px solid pink;
+  box-shadow: 5px 10px blueviolet;
+}
 
 /* Nurat's CSS   --- Beginning---*/
 /* ------------------------------------*/
