@@ -1008,17 +1008,6 @@ span.ami-time {
    color: #ffffff;
    border-bottom: 5px solid skyblue;
 }
-
-.resume_content  {
-  width: 100%;
-  border-top: 5px solid blue;
-  background-color: skyblue;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-content: flex-start;
-}
-
-/* style the labels on the left side */
 .udeme_contact  {
   font-size: 20px;
 }
