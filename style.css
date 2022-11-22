@@ -12,11 +12,16 @@ body  {
 main  {
   margin: auto;
 }
+.pseudo_top{
+  width: 100%;
+  height: 20px;
+  background: #000000;
+}
 .project_tittle {
   position: sticky;
   top: 0;
   text-align: center;
-  padding: 40px 20px;
+  padding: 20px 20px;
   background: #000000;
   color: #ffffff;
 }
