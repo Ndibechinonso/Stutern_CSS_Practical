@@ -1137,3 +1137,110 @@ width: 270px;
   padding-top: 10px;
   padding-bottom: 10px;
   }
+  /* ODUDU LOUISA css styles */
+  .card{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    align-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.louisa-main {
+  width: 70vw;
+  height: 100%;
+  margin: 20px auto;
+  border: 1px solid #0086de;
+  font-size: 0.8em;
+  font-family: Poppins;
+  line-height: 1.5em;
+}
+
+h1.louisa-h1 {
+  font-size: 3em;
+  color: #d9edfa;
+  font-weight: bold;
+}
+.louisa-header {
+  background-color: #0086de;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+
+.main-container {
+  background-color: #d9edfa;
+  display: flex;
+  border-top: 4px solid #0086de;
+}
+
+.category-container {
+  flex: 1;
+  padding: 50px 20px 90px;
+}
+
+.profession-container {
+  background-color: #ffffff;
+  flex: 2;
+  margin-top: 20px;
+  padding: 30px 30px 90px;
+}
+
+div.p-summary,
+div.experience,
+.louisa-para,
+.sub-head ~ span {
+  padding-left: 15px;
+}
+
+.louisa-main ul {
+  padding-left: 25px;
+}
+
+.container1,
+.container2,
+.history-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9em;
+}
+
+.history-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+div.louisa-para {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+h3.sub-head {
+  margin-bottom: 1px;
+  font-size: 1.3em;
+}
+
+span.louisa-label {
+  font-weight: 800;
+}
+
+span.louisa-label2 {
+  padding-left: 2px;
+}
+
+.para1 > span {
+  display: block;
+}
+div.para1 {
+  display: flex;
+}
+span.louisa-date {
+  text-align: right;
+}
+/* END OF ODUDU LOUISA css styles */
