@@ -13,12 +13,13 @@ body  {
 body::-webkit-scrollbar {
   width: 1em;
   background-color: #000000;
-  border-radius: 5px;
+
 }
  
 body::-webkit-scrollbar-thumb {
   background-color: gray;
   outline: 2px solid slategrey;
+  border-radius: 8px;
 }
 main  {
   margin: auto;
@@ -1031,21 +1032,6 @@ span.ami-time {
 
 
 /* Kevwe's styling */
-.kevwe-card {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  line-height: 37px;  
-}
-
-.kevwe-card a {
-  text-decoration: none;
-  color: brown;
-  font-size: 17px;
-}
-
-.kevwe-card a:hover {
-  color: black;
-  text-decoration: underline;
-}
  
 .kev-resume {
   width: 850px;
