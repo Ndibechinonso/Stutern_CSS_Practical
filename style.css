@@ -1,27 +1,26 @@
-*  {
+* {
   padding: 0;
   margin: 0;
   width: 100%;
   box-sizing: border-box;
 }
-body  {
+body {
   max-width: 1440px;
   margin: auto;
- 
- height: 100%;
+
+  height: 100%;
 }
 body::-webkit-scrollbar {
   width: 1em;
   background-color: #000000;
-
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: gray;
   outline: 2px solid slategrey;
   border-radius: 8px;
 }
-main  {
+main {
   margin: auto;
 }
 .project_tittle {
@@ -51,7 +50,7 @@ main  {
   align-content: center;
   gap: 20px;
 }
-.card:hover  {
+.card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card:nth-of-type(even) {
@@ -73,12 +72,12 @@ main  {
 .nonso_header {
   background-color: blue;
   text-align: center;
-   padding: 40px;
-   color: #ffffff;
-   border-bottom: 5px solid skyblue;
+  padding: 40px;
+  color: #ffffff;
+  border-bottom: 5px solid skyblue;
 }
 
-.resume_content  {
+.resume_content {
   width: 100%;
   border-top: 5px solid blue;
   background-color: skyblue;
@@ -86,34 +85,34 @@ main  {
   grid-template-columns: 1fr 2fr;
   align-content: flex-start;
 }
-.resume_content h2  {
+.resume_content h2 {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 20px;
 }
-.resume_left  {
+.resume_left {
   padding: 60px 40px;
 }
-.display_column  {
+.display_column {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.resume_right  {
+.resume_right {
   background: #ffffff;
   margin-top: 20px;
   padding: 30px 40px;
 }
 
 /* style the labels on the left side */
-.nonso_contact  {
+.nonso_contact {
   font-size: 20px;
 }
 .padding_left_30,
 .nonso_contact {
   padding-left: 30px;
 }
-.nonso_contact .nonso_label  {
+.nonso_contact .nonso_label {
   font-weight: 700;
 }
 
@@ -121,28 +120,28 @@ main  {
 .job_tittle,
 .company {
   display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .job_tittle span:first-child,
 .company span:first-child {
   font-weight: 700;
   font-size: 28px;
 }
-.company span:first-child  {
+.company span:first-child {
   font-size: 20px;
 }
-.text_right  {
+.text_right {
   text-align: right;
 }
 
-.job_container  {
+.job_container {
   padding-left: 5px;
 }
-.job_info  {
+.job_info {
   margin-bottom: 30px;
 }
-.list  {
+.list {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -155,38 +154,40 @@ main  {
   color: #ffffff;
   border-bottom: 5px solid skyblue;
 }
-.cv_content{
+.cv_content {
   width: 100%;
   border-top: rgb(46, 126, 232);
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-content: flex-start;
 }
-.cv_left{
+.cv_left {
   padding-top: 60px 40px;
 }
-.d_display_column{
+.d_display_column {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.cv_right{
+.cv_right {
   background: #ffffff;
   margin-top: 20px;
   padding: 30px 40px;
 }
-.cv_content h2{
+.cv_content h2 {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 20px;
 }
-.dami_contact{
-font-size: 20px;
+.dami_contact {
+  font-size: 20px;
 }
-.padding_30 , .dami_contact{
+.padding_30,
+.dami_contact {
   padding-left: 30px;
 }
-.dami_contact ,.dami_label{
+.dami_contact,
+.dami_label {
   font-weight: 700;
 }
 .job_tittle,
@@ -400,31 +401,31 @@ header {
   background-color: white;
   margin-top: 1%;
 }
-.whole-body h2{
+.whole-body h2 {
   text-transform: uppercase;
   font-weight: 800;
   margin-top: 30px;
   padding-bottom: 10px;
 }
-.whole-body div span{
+.whole-body div span {
   padding-left: 30px;
 }
-.whole-body div span:first-child{
+.whole-body div span:first-child {
   font-weight: 800;
 }
-.first-ul{
+.first-ul {
   padding-left: 50px;
 }
-.whole-body p{
+.whole-body p {
   padding-left: 50px;
 }
-.right-texts{
+.right-texts {
   padding-left: 25px;
 }
-.right-texts:nth-child(5){
+.right-texts:nth-child(5) {
   padding-top: 20px;
 }
-.second-ul{
+.second-ul {
   padding-left: 50px;
 }
 
@@ -458,72 +459,62 @@ header {
   font-size: 20px;
 }
 
-/* Opuba Rachel's Styles */
-.opuba-card {
-  margin: 2rem auto;
-  background-color: rgb(255, 234, 182);
-  padding: 0.8rem;
-  padding-bottom: 8rem;
-  width: 250px;
-  border-radius: 15px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  font-weight: 400;
+/* Opuba's Styles starts here */
+
+.opuba-page-wraper {
+  background: #f1f3f4;
+  font-family: "Roboto";
 }
 
-.opuba-h4,
-.opuba-huge {
-  font-size: 1.185rem;
-  line-height: 1.5rem;
+.opuba-main {
+  width: 900px;
+  max-width: 70%;
 }
 
-.opuba-h4 {
-  margin-bottom: 0;
-}
-.opuba-price {
-  display: flex;
-  align-items: center;
-  font-size: 0.95rem;
-}
-
-.opuba-amount {
-  font-size: 2rem;
-  padding-right: 1rem;
+.opuba-main h1 {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-weight: 500;
+  background: #0187de;
+  color: #e3ecf1;
 }
 
-.opuba-btn {
-  text-align: center;
+.opuba-page-wraper p,
+.opuba-page-wraper .job_container li {
+  line-height: 25px;
 }
 
-.opuba-button {
-  padding: 1.1rem 5.5rem;
-  border-radius: 40px;
-  background-color: white;
-  margin: 0.5rem 0;
-  border: 1px solid grey;
+.opuba-main .resume_content {
+  border-top: 5px solid #0187de;
+  background: #d9edfa;
 }
 
-.opuba-button:hover {
-  background-color: rgb(234, 233, 233);
-  cursor: pointer;
+.opuba-main h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-.opuba-li {
-  list-style: none;
-  margin-bottom: 0.3rem;
+#opuba-professional-sec-h2 {
+  font-weight: 700;
+}
+.opuba-contact-container {
+  margin-top: -10px;
 }
 
-.opuba-li::before {
-  content: "\2713\0020";
-  font-weight: 900;
-  margin-left: -2.2rem;
-  padding-right: 0.5rem;
+.zxghjkopuba-skills ul {
+  padding-left: 40px;
 }
 
-.opuba-span {
-  border-bottom: 3px dotted black;
+.opuba-work-history h2 {
+  margin-bottom: 12px;
+  font-weight: 700;
 }
+
+.opuba-job-title span:first-child,
+.opuba-company span:first-child {
+  font-weight: 500;
+}
+/* Opuba's Styles ends here */
 
 /* why style span? this is too general */
 /* ul {text-align: justify; color: crimson;} */
@@ -565,7 +556,7 @@ header {
 #nurat_header h1 {
   transform: scale(1, 1.5);
   padding-top: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #divider {
@@ -618,7 +609,6 @@ header {
 #left_sidebar ul,
 #right_sidebar ul {
   margin-left: 25px;
-
 }
 
 .history {
@@ -673,7 +663,7 @@ header {
   border-radius: 10px;
   background-color: rgb(9, 214, 201);
   width: 500px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(65, 64, 64);
   margin: 0 auto;
   padding: 30px 50px;
@@ -702,10 +692,10 @@ header {
   margin: 0 auto;
   width: 1000px;
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid rgb(50,148,230);
+  border: 1px solid rgb(50, 148, 230);
 }
 .header_esther {
-  background-color: rgb(50,148,230);
+  background-color: rgb(50, 148, 230);
   text-align: center;
   color: white;
   padding: 50px;
@@ -727,7 +717,7 @@ header {
 .e_resumeleft {
   padding: 30px 30px;
   text-align: justify;
-  width: 400px
+  width: 400px;
 }
 .e_contact {
   font-size: 18px;
@@ -742,7 +732,7 @@ header {
   padding-left: 10px;
 }
 .div[e_label] {
- padding-left: 10px;
+  padding-left: 10px;
 }
 
 .e_column {
@@ -865,40 +855,43 @@ span.ami-time {
   background-color: #ffd000;
 }
 
-
 /*Chidera's CSS*/
-#bodyody{
-    background-color: rgb(216, 92, 129);
-    padding: 10px;
+#bodyody {
+  background-color: rgb(216, 92, 129);
+  padding: 10px;
 }
-.labela{
-    font-weight: bold;
-    font-size: large;
+.labela {
+  font-weight: bold;
+  font-size: large;
 }
-#h10{
-    text-align: center;
+#h10 {
+  text-align: center;
 }
-#butn5{
-    margin: 0px 10px 10px 70px;
-    width: 70px;
-    height: 30px;
-    border-radius: 5px;
+#butn5 {
+  margin: 0px 10px 10px 70px;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
 }
-#hr4{
-    margin-bottom: 20px;
-    margin-top: -15px;
+#hr4 {
+  margin-bottom: 20px;
+  margin-top: -15px;
 }
-.dera[type=text],[type=email],[type=tel],select,textarea{
-    width: 320px;
-    padding: 10px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 18px;
-    resize: none;
-    margin-left: 5px;
+.dera[type="text"],
+[type="email"],
+[type="tel"],
+select,
+textarea {
+  width: 320px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  resize: none;
+  margin-left: 5px;
 }
 
 /* Esther's css style */
@@ -911,7 +904,7 @@ span.ami-time {
   border-radius: 10px;
   background-color: rgb(9, 214, 201);
   width: 500px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(65, 64, 64);
   margin: 0 auto;
   padding: 30px 50px;
@@ -940,10 +933,10 @@ span.ami-time {
   margin: 0 auto;
   width: 1000px;
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid rgb(50,148,230);
+  border: 1px solid rgb(50, 148, 230);
 }
 .header_esther {
-  background-color: rgb(50,148,230);
+  background-color: rgb(50, 148, 230);
   text-align: center;
   color: white;
   padding: 50px;
@@ -965,7 +958,7 @@ span.ami-time {
 .e_resumeleft {
   padding: 30px 30px;
   text-align: justify;
-  width: 400px
+  width: 400px;
 }
 .e_contact {
   font-size: 18px;
@@ -980,7 +973,7 @@ span.ami-time {
   padding-left: 10px;
 }
 .div[e_label] {
- padding-left: 10px;
+  padding-left: 10px;
 }
 
 .e_column {
@@ -1004,42 +997,41 @@ span.ami-time {
 .udeme_header {
   background-color: blue;
   text-align: center;
-   padding: 40px;
-   color: #ffffff;
-   border-bottom: 5px solid skyblue;
+  padding: 40px;
+  color: #ffffff;
+  border-bottom: 5px solid skyblue;
 }
-.udeme_contact  {
+.udeme_contact {
   font-size: 20px;
 }
 .padding_left_30,
 .udeme_contact {
   padding-left: 30px;
 }
-.udeme_contact .udeme_label  {
+.udeme_contact .udeme_label {
   font-weight: 700;
 }
 
-
 /* Kevwe's styling */
- 
+
 .kev-resume {
   width: 850px;
   border: 2px solid black;
   margin: auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .kev-header {
   background-color: brown;
   text-align: center;
-   padding: 40px;
-   color: #ffffff;
-   border-bottom: 5px solid burlywood;
+  padding: 40px;
+  color: #ffffff;
+  border-bottom: 5px solid burlywood;
 }
 
 .kev-body {
   width: 100%;
- 
+
   border-top: 5px solid brown;
   background-color: burlywood;
   display: grid;
@@ -1049,8 +1041,8 @@ span.ami-time {
 
 .kev1 {
   padding-top: 40px;
-padding-left: 15px;
-width: 270px;
+  padding-left: 15px;
+  width: 270px;
 }
 
 .kev1-a h3 {
@@ -1114,19 +1106,19 @@ width: 270px;
   margin-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  }
+}
 
-   /* ODUDU LOUISA css styles */
-   .card{
-    display: flex;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 300px;
-    padding: 10px;
-    align-content: center;
-    flex-direction: column;
-    margin: 10px;
+/* ODUDU LOUISA css styles */
+.card {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  align-content: center;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .louisa-main {
