@@ -1223,3 +1223,67 @@ span.louisa-date {
   text-align: right;
 }
 /* END OF ODUDU LOUISA css styles */
+
+/* ijeoma css */
+.ij_flex_container{
+  box-sizing:border-box;
+  background-color: #fff;
+  display: flex;
+  padding-right: 0px;
+  /* border-top: 3px solid #0086de; */
+position: absolute;
+/* width: fit-content; */
+width: 100%;
+  
+  
+}
+.ij_header{
+  background-color: #0086de;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  /* padding-bottom: 20px; */
+  /* margin-bottom: 20px; */
+  margin-left: 20%;
+  margin-top: 0.5%;
+  border-bottom: solid 2px white;
+max-width: 800px;
+width: 100%;
+text-align: center;
+}
+.ij_section1{
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  /* border-top: 3px solid #0086de; */
+  padding: 30px;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  max-width: 250px;
+  margin-left: 20%;
+  margin-top: 0 !important;
+}
+#ij_list{
+  margin-left: 1rem;
+}
+.ij_contact_div{
+  padding-top: 20px;
+  line-height: 25px;
+}
+.ij_section2{
+  /* display: flexbox; */
+  display: flex;
+  flex-direction: column;
+  /* border-top: 3px solid #0086de; */
+  background-color: white;
+  padding: 30px;
+  padding-top: 25px;
+  padding-bottom: 100px;
+  line-height: 25px;
+  padding-bottom: 100px;
+  max-width: 500px;
+  margin-top: 0px;
+  /* margin-left: ; */
+}
+/* end of ijeoma css */
