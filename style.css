@@ -690,66 +690,78 @@ header {
 .my_resume {
   box-sizing: border-box;
   margin: 0 auto;
-  width: 1000px;
+  width: 80%;
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid rgb(50,148,230);
+}
+.e-main {
+  background-color: rgb(193, 223, 248);
 }
 .header_esther {
   background-color: rgb(50,148,230);
   text-align: center;
   color: white;
-  padding: 50px;
+  padding: 30px;
   font-weight: 800;
   letter-spacing: 1px;
+}
+.e-hr {
+  height: 5px;
+  margin-top: 3px;
+  background-color: rgb(50,148,230);
+  border: 1px solid rgb(50,148,230);
 }
 .e_resume {
   background-color: rgb(193, 223, 248);
   align-content: flex-start;
-  border-top: 5px solid rgb(193, 223, 248);
-  display: inline-block;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+
 }
 .e_resume h3 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 18px;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 .e_resumeleft {
   padding: 30px 30px;
-  text-align: justify;
-  width: 400px
+  text-align: start;
+  width: 30%;
 }
 .e_contact {
-  font-size: 18px;
-  padding-left: 20px;
-  padding-top: 20px;
+  font-size: 14px;
 }
 .e_skills {
-  padding-left: 30px;
+  margin-left: 5px;
 }
 .e_label {
   font-weight: 600;
   padding-left: 10px;
 }
-.div[e_label] {
- padding-left: 10px;
-}
-
-.e_column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .e_right {
   background: white;
-  margin-top: 20px;
-  padding: 30px 40px;
-  font-size: 18px;
-  width: 600px;
+  margin-top: 10px;
+  padding: 20px 40px;
+  font-size: 14px;
+  width: 70%;
 }
 .e_profession {
-  padding-top: 20px;
+  text-align: justify;
+}
+.e-profession {
+  padding-bottom: 10px;
+}
+.e-profession ul {
+  padding-top: 5px;
+}
+.e_profession li {
+  margin-left: 16px;
+}
+.es-profession {
+  font-weight: 600;
 }
 
 /*Oluwatomi's CSS*/
